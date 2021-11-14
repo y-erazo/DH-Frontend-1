@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ------------- HEADER - FOOTER --------------- */
+
+#header, #footer{
+    height: 100px;
+    background-color: #222222;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__menu a, .footer__menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
+    margin: 15px;
+}
+
+.header__menu ul, .footer__menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.footer__menu ul{
+    flex-direction: column;
+}
+
+/* -------------   COTENIDO ------------- */
+#content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    /* ----  Caja 1 ---- */
+
+.content__promocion{
+    width: 490px;
+    height: 350px;
+    background-image: url("../img/delivery.jpg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 10px;
+}
+.content__promocion h3{
+    color: #FC200C;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.content__promocion h3 span{
+    color: #FFFFFF;
+}
+
+    /* ----  Caja 2 ---- */
+
+.content__pizzas{
+    width: 490px;
+    height: 350px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content__pizzas h3{
+    text-align: center;
+    color: #FC200C;
+    font-weight: 900;
+}
+
+.content__pizzaslist{
+    width: 100%;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content__pizzaslist ol{
+    line-height: 30px;
+}
+
+
