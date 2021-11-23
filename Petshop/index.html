@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/2670370585.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Petshop</title>
+
+    <!-- FIGMA  https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=1%3A8 -->
+</head>
+<body>
+<div id="containter">
+
+<!-- ******** Header ******** -->
+    <header class="header">
+
+<!-- ******** Languaje / currency ******** -->
+        <section class="header-idiomaMoneda">
+            <p>Grandes ofertas en comederos</p>
+
+            <nav class="idiomaMoneda_nav">
+                <ul>
+                    <li type="none"><a href="#">Español<i class="fas fa-chevron-down icon-arrow"></i></a></li>
+                    <li type="none"><a href="#">ARG$<i class="fas fa-chevron-down icon-arrow"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+
+<!-- ******** Menu ppal ******** -->
+        <section class="header-menu">
+                <div>
+                    <img class="header-logo" src="img/Logo.png" alt="Logo">
+                </div>
+                <nav class="header-nav">
+                    <ul>
+                        <li type="none"><a href="#"><i class="fas fa-paw icon-paw"></i>Categorías</a></li>
+                        <li type="none"><a href="#"><i class="fas fa-paw icon-paw"></i>Pets</a></li>
+                        <li type="none"><a href="#"><i class="fas fa-paw icon-paw"></i>Nosotros</a></li>
+                        <li type="none"><a href="#"><i class="fas fa-paw icon-paw"></i>Contáctanos</a></li>
+                    </ul>
+                </nav>
+                <i class="icon-menu fas fa-bars "></i>
+        </section>
+    </header>
+
+<!-- ******** Banner ******** -->
+
+    <section class="banner">
+            <div class="banner-text">
+                <h2>¡Es un placer tenerte aquí!</h2>
+                <p>¡Comederos en descuento!</p>
+                <button class="banner__button">COMEDEROS</button>
+            </div>
+    </section>
+
+    <main id="content-main">
+        
+<!-- ******** cards ******** -->
+        <span><i class="fas fa-paw"></i></span>
+        <h1>Productos Destacados</h1>
+
+        <nav class="filter">
+            <ul>
+                <li type="none"><a href="#">Comederos</a></li>
+                <li type="none">-</li>
+                <li type="none"><a href="#">Accesorios</a></li>
+                <li type="none">-</li>
+                <li type="none"><a href="#">Comida</a></li>
+            </ul>
+        </nav>
+
+        <section class="content-cards">
+            <div class="card">
+                <img class="card-img" src="img/churrasquito.png" alt="">
+                <h4 class="card-title">Juguete Churrasquito Copy</h4>
+                <h3 class="card-price">$150</h3>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="img/comedero.png" alt="">
+                <h4 class="card-title">Comedero para perro</h4>
+                <h3 class="card-price">$250</h3>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="img/Huesito.png" alt="">
+                <h4 class="card-title">Juguete Huesito</h4>
+                <h3 class="card-price">$650</h3>
+            </div>
+        </section>
+
+<!-- ******** Contact ******** -->
+        <h2 class="contact-title">Contáctanos</h2>
+
+        <form id="contacto" action="" method="">
+            <div>
+                <label for="nombre"></label>
+                <input type="text" name="nombreUsuario" placeholder="Nombre y Apellido">
+                <span class="feedback"></span>
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" name="emailUsuario" placeholder="Ingresá tu correo electrónico
+                ">
+            </div>
+            <div>
+                <label for="telefono"></label>
+                <input type="tel" name="telefono" placeholder="Teléfono">
+            </div>
+            <div class="buttons">
+                <button id="reset" type="reset">Resetear</button>
+                <button id="submit" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+<!-- ******** Suscription ******** -->
+
+    <section class="suscription">
+        <div class="suscription-txt">
+            <img src="img/enviar-correo 1.png" alt="">
+            <p>Suscríbete para más novedades</p>
+        </div>
+        <div class="form-suscription">
+            <label for="email"></label>
+            <input type="email" name="emailUsuario" placeholder="Ingresá tu correo electrónico
+            ">
+            <button id="btn-suscription" type="submit">Suscribirme</button>
+        </div>
+    </section>
+
+<!-- ******** Footer ******** -->
+
+    <footer class="footer">
+
+        <section class="footer-datos">
+
+            <div class="footer-datos-item">
+                <img src="img/Location.png" alt="">
+                <div>
+                    <h4>Localidad</h4>
+                    <h6>Calle - provincia</h6>
+                </div>
+            </div>
+
+            <div class="footer-datos-item">
+                <img src="img/phone.png" alt="">
+                <div>
+                    <h4>Teléfono</h4>
+                    <h6>Número de teléfono</h6>
+                </div>
+            </div>
+            
+            <div class="footer-datos-item">
+                <img src="img/correo.png" alt="">
+                <div>
+                    <h4>Correo Electrónico</h4>
+                    <h6>Dirección de correo</h6>
+                </div>
+            </div>
+
+        </section>
+        <section class="footer-socialMedia">
+            <img src="img/Logo_footer.png" alt="">
+            <div>
+                <ul>
+                    <a href="#"><li type="none"><i class="fab fa-instagram"></i></li></a>
+                    <a href="#"><li type="none"><i class="fab fa-facebook"></i></li></a>
+                    <a href="#"><li type="none"><i class="fab fa-whatsapp"></i></li></a>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+<!-- ******** Copyright ******** -->    
+    <div class="copyright">
+        <p>Todos los derechos reservados Front End</p>
+    </div>
+
+
+</div> 
+</body>
+</html>

@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #3C2313;
+}
+
+/* -------------- Languaje / currency -------------- */
+.header-idiomaMoneda{
+    background-color: #222222;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 5%;
+}
+.header-idiomaMoneda, a, p, i, li{
+    text-decoration: none;
+    color: #F3F3F3;
+}
+.idiomaMoneda_nav ul, .header-nav ul{
+    display: flex;
+}
+.idiomaMoneda_nav ul li{
+    margin: 0 12px;
+}
+.idiomaMoneda_nav ul li .icon-arrow{
+    margin- left: 5px;
+}
+
+/* -------------- Menu ppal -------------- */
+.header-menu{
+    background-color: #F0A83E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 5%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+.header-nav ul li{
+    margin: 0 20px;
+}
+.header-menu ul li .icon-paw{
+    margin-right: 4px;
+}
+.icon-menu{
+    display: none;
+}
+
+/* -------------- Banner -------------- */
+.banner{
+    height: 409px;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #9ed5b2;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding-right: 2%;
+}
+.banner-text{
+    width: 50%;
+}
+.banner-text h2{
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-weight: normal;
+}
+.banner-text p, .banner__button{
+    margin-top: 12px;
+    color: #3C2313;
+}
+.banner__button{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 23px;
+    border-radius: 5px;
+}
+
+/* -------------- Main -------------- */
+#content-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content-main span i{
+    font-size: 70px;
+    margin:20px 0 5px 0;
+    color: #F0A83E;
+}
+#content-main h1{
+    margin-top: 10px;
+}
+#content-main .filter ul{
+    margin: 20px 0;
+    display: flex;
+}
+#content-main .filter ul li{
+    margin: 12px;
+    color: #666666;
+}
+#content-main .filter a{
+    color: #666666;
+}
+
+/* -------------- Cards -------------- */
+.content-cards{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    justify-content:center;
+}
+.card{
+    background-color: #FBFAF6;
+    margin: 20px 10px;
+}
+.card h4{
+    color: #3C2313;
+}
+.card h3{
+    color: #F0A83E;
+    padding-bottom: 6px;
+}
+
+/* -------------- Contact -------------- */
+.contact-title{
+    font-size: 25px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
+}
+#contacto input{
+    width: 300px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    margin-top:10px;
+    color: #FFFFFF;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+#reset, #submit{
+    width: 110px;
+    background-color: #8A8787;
+    border: none;
+    padding: 8px 0;
+    border-radius: 15px;
+    color: #FFFFFF;
+    margin: 6px;
+}
+#submit{
+    background-color: #F0A83E;
+}
+/* -------------- Suscription -------------- */
+.suscription{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 90px;
+}
+.suscription-txt{
+    display: flex;
+    align-items: center;
+}
+.suscription-txt img{
+    align-items: center;
+    margin: 0 24px 0 0;
+}
+.form-suscription{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.suscription input{
+    width: 271px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 15px;
+    border: none;
+}
+#btn-suscription{
+    background: #3C2313;
+    color: #FFFFFF;
+    border-radius: 15px;
+    padding: 12px 11px;
+    border: none;
+    margin: 5px;
+}
+
+/* -------------- Footer -------------- */
+
+footer{
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 90px;
+}
+
+.footer-datos{
+    display: flex;
+    flex-direction: column;
+}
+.footer-datos-item{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+.footer-datos-item img{
+    margin-right: 25px;
+}
+.footer-datos-item h4{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.footer-datos-item h6{
+    color: #8A8787;
+    font-size: 11px;
+}
+
+.footer-socialMedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.footer-socialMedia ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer-socialMedia li{
+    margin: 0 10px 10px 10px;
+}
+
+.copyright{
+    background-color:#222222;
+}
+
+.copyright p{
+    font-size: 11px;
+    padding: 4px;
+    text-align: center;
+}
+
+
+@media (max-width:768px) {
+    
+    /* -------------- HEADER --------------*/
+    .banner{
+        background-image: none;
+        background-color: #87cea6;
+        padding-right: 0;
+    }
+    
+    .header-idiomaMoneda{
+        display: none;
+    }
+    .header-menu{
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+        padding: 19px 10%;
+    }
+    .header-nav {
+        display: none;
+    }
+
+/* -------------- Banner -------------- */
+    .banner{
+        text-align: center;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .icon-menu{
+        font-size: 20px;
+        display: block;
+}
+
+/* -------------- Suscription -------------- */
+    .suscription{
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 20px 20px;
+}
+    .suscription-txt{
+        margin-bottom: 14px;
+}
+    #btn-suscription{
+        margin-top: 10px;
+    }
+/* -------------- Footer -------------- */
+    footer{
+        flex-direction: column-reverse;
+}
+    .footer-socialMedia{
+        margin: auto;
+}
+
+}
