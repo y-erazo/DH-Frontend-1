@@ -24,8 +24,8 @@
 .idiomaMoneda_nav ul li{
     margin: 0 12px;
 }
-.idiomaMoneda_nav ul li .icon-arrow{
-    margin-left: 5px;
+.idiomaMoneda_nav ul li i{
+    margin: 0 0 0 5px;
 }
 
 /* -------------- Menu ppal -------------- */
@@ -41,10 +41,10 @@
 .header-nav ul li{
     margin: 0 20px;
 }
-.header-menu ul li .icon-paw{
-    margin-right: 4px;
+.header-menu ul li i{
+    margin: 0 4px 0 0;
 }
-.icon-menu{
+#icon-menu{
     display: none;
 }
 
@@ -223,7 +223,7 @@ footer{
 }
 .footer-datos-item{
     display: flex;
-    margin: 20px 0;
+    margin: 20px;
     align-items: center;
 }
 .footer-datos-item img{
@@ -292,7 +292,7 @@ footer{
     .banner-text{
         width: 100%;
     }
-    .icon-menu{
+    #icon-menu{
         font-size: 20px;
         display: block;
 }
@@ -306,9 +306,7 @@ footer{
     .suscription-txt{
         margin-bottom: 14px;
 }
-    #btn-suscription{
-        margin-top: 10px;
-    }
+
 /* -------------- Footer -------------- */
     footer{
         flex-direction: column-reverse;
