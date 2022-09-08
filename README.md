@@ -1,13 +1,13 @@
 # DH - FE1
 Consignas Digital House - FrontEnd I
 
-### [Ver en vivo 🚀](https://y-erazo.github.io/DH-Frontend-1/)
+### [Ver en vivo 🚀](https://yazmin-erazo.github.io/DH-Frontend-1/)
 
 <br/>
 <br/>
 
 ---
-Con ❤️ por [Yazmin-Erazo](https://github.com/y-erazo) 😊
+Con ❤️ por [Yazmin-Erazo](https://github.com/yazmin-erazo) 😊
 
 <br/>
 <br/>
